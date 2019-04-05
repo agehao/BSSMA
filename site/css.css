@@ -1,0 +1,31 @@
+body {
+	background: url(bg.jpg);
+	background-size: 1600px 1000px
+}
+.head{
+	background-color: black;
+	font-weight: 800;
+	text-transform: uppercase;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 3.15rem;
+}
+.blood{ animation: slideright 1.5s linear;
+		text-indent: 42%;
+		font-size: 2rem;
+		color: darkred;
+}
+.shugar{ animation: slideright 1.7s linear;
+		 text-indent: 35%;
+		 color: pink;}
+.sex{ animation: slideright 1.8s linear;
+		text-indent: 43.5%;
+		color: darkred; }
+.magic{ animation: slideright 2s linear;
+		text-indent: 39.9%;
+		color: white; }
+@keyframes slideright {
+	0%{ text-indent: -15rem;
+		opacity: 0;
+	}
+
